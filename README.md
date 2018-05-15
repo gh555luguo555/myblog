@@ -24,6 +24,8 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace("\\", '/')
 
 3. 前端
-    <img src="{{ MEDIA_URL }}{{ article.img }}" class="img-responsive" alt="img"></a>
+    ···<img src="{{ MEDIA_URL }}{{ article.img }}" class="img-responsive" alt="img"></a>···
+  
+  
 
 
